@@ -1,12 +1,11 @@
-　　---
-　　layout: default
+<!DOCTYPE html>
+<html>
 
-　　title: 我的Blog
-　　---
-　　<h2>{{ page.title }}</h2>
-　　<p>最新文章</p>
-　　<ul>
-　　　　{% for post in site.posts %}
-　　　　　　<li>{{ post.date | date_to_string }} <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
-　　　　{% endfor %}
-　　</ul>
+<body>
+
+<!--这是一段注释。注释不会在浏览器中显示。-->
+
+<p>我的Blog</p>
+
+</body>
+</html>
